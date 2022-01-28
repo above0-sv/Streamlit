@@ -164,10 +164,6 @@ if __name__ == "__main__":
     generar_nube_de_palabras('file', uploaded_file)
 
 
-import spacy
-import streamlit as st 
-from itertools import combinations 
-import pandas as pd 
 
 
 
