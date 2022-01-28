@@ -6,7 +6,6 @@ import spacy
 
 import matplotlib.pyplot as plt
 import seaborn as sns
-from intertools import combinations
 from wordcloud import WordCloud
 from textblob import TextBlob 
 
