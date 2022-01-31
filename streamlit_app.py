@@ -147,7 +147,7 @@ if __name__ == "__main__":
   st.title('☁️ Word Cloud Chegg ☁️')
   st.markdown("Created by Above Zero")
 
-  st.markdown('## Press **Browse files** and select *Shares.csv*')
+  st.markdown('## Press **Browse files** and select *file.csv*')
   st.markdown("Visualize precharged data, press the button")      
   pressed = st.button('See precharged data')
 
