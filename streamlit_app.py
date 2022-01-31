@@ -27,11 +27,11 @@ if(st.button('Submit')):
     #result = x.title()
     
     if(sentiment_polarity < 0):
-        st.error("The given tweet looks Negative")
+        st.error("The given comment is Negative")
     elif(sentiment_polarity ==0):
-        st.warning("The given tweet looks Neutral")
+        st.warning("The given comment is Neutral")
     elif(sentiment_polarity > 0 ):
-        st.success("The given tweet looks Positive ")
+        st.success("The given comment is Positive ")
 
 # Para obtener la lista de "stopwords" y asi descartarlas
 import nltk
