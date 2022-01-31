@@ -147,16 +147,16 @@ if __name__ == "__main__":
   st.title('☁️ Nube de palabras Chegg ☁️')
   st.markdown("Creado por Above Zero")
 
-  st.markdown('## Presioná el botón **Browse files** y luego seleccioná tu archivo *Shares.csv*')
-  st.markdown("Visualizar datos ya cargados, presioná el siguiente botón")      
-  pressed = st.button('Ver ejemplo')
+  st.markdown('## Press **Browse files** and select *Shares.csv*')
+  st.markdown("Visualize precharged data, press the button")      
+  pressed = st.button('See precharged data')
 
   # Cargamos template
   if pressed:
      generar_nube_de_palabras('template')
   
   # Subir archivo
-  uploaded_file = st.file_uploader("Seleccioná el archivo")
+  uploaded_file = st.file_uploader("Select File")
 
   # Cargamos desde archivo
   if uploaded_file is not None:
