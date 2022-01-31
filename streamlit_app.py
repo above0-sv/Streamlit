@@ -144,8 +144,8 @@ stop_words = stopwords.words('spanish')
 
 if __name__ == "__main__": 
 
-  st.title('☁️ Nube de palabras Chegg ☁️')
-  st.markdown("Creado por Above Zero")
+  st.title('☁️ Word Cloud Chegg ☁️')
+  st.markdown("Created by Above Zero")
 
   st.markdown('## Press **Browse files** and select *Shares.csv*')
   st.markdown("Visualize precharged data, press the button")      
